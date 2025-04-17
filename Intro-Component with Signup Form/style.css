@@ -1,0 +1,139 @@
+body{
+  background: url("../images/bg-intro-mobile.png"), #ff7a7a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+.flex-container{
+   display: flex;
+   height: auto;
+   margin-top: 120px;
+  justify-content: center;
+   
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 40px;
+  grid-auto-columns: minmax(100px,auto);
+
+}
+
+.item1{
+  grid-row:span 4;
+  width:300px;
+  height: 400px;
+  justify-self: center;
+  align-content: center;
+  margin-left: -150px;
+}
+.item2{
+  width: 450px;
+  height: 44px;
+}
+.item3{
+ 
+  width: 450px;
+  height: 370px;
+  border: 1px solid;
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.header1{
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+.header2{
+  border: 1px solid rgb(96, 85, 165);
+  background-color: rgb(96, 85, 165);
+  border-radius: 8px;  
+  height: 50px;
+}
+.header2 p{
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+.item1 h1{
+  width: 340px;
+}
+.item1 div{
+  width: 440px;
+}
+input:not([type="submit"]) {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(228, 226, 226);
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.signup__form input {
+  width: 90%;
+  height: 3em;
+  margin-top: 0.9em;
+  font-family: inherit;
+  font-weight: bolder;
+  padding: 0px 1em;
+  margin-left: 11px;
+  margin-top: 24px ;
+
+}
+input[type = submit]{
+  border: none;
+  border-radius: 4px;
+  background-color: #38cc8c;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  box-shadow: 0px 0.3em 0px 0px #2fb179;;
+
+}
+.terms-notice{
+  margin-top: 12px;
+  display: inline-block;
+  color: rgb(187, 187, 187);
+  font-size: smaller;
+  margin-left: 12px;
+}
+@media (max-width: 980px) {
+  .item1{
+    grid-row:span 4;
+    width: 200px;
+    height: 400px;
+    
+    background-color: #2fb179;
+    margin-top: -40px;
+  }
+  .item2{
+    width: 370px;
+    height: 40px;
+    margin-top: -50px;
+    
+  }
+  .item3{
+    width: 370px;
+    height: 380px;
+    margin-top: -20px;
+
+  }
+  .header1{
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+.title{
+  background-color: #2fb179;
+  width: 100px;
+  font-size: 15px;
+ 
+}
+}
